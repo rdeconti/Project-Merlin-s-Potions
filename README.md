@@ -1,2 +1,2 @@
 # Project-Merlin-s-Potions
-Desafio para consolidação de conhecimentos e técnicas
+Desafio para consolidar conhecimentos e técnicas
