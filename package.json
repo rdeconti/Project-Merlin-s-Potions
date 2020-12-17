@@ -1,0 +1,23 @@
+{
+  "name": "project-merlins-potions",
+  "version": "1.0.0",
+  "description": "Desafio para consolidar conhecimentos e técnicas",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdeconti/Project-Merlins-Potions.git"
+  },
+  "author": "Rosemeire Deconti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdeconti/Project-Merlins-Potions/issues"
+  },
+  "homepage": "https://github.com/rdeconti/Project-Merlins-Potions#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
