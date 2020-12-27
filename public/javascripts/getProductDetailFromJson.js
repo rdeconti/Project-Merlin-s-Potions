@@ -119,7 +119,6 @@ function formatListItemDetail(data, classId) {
       var itemList = document.createElement("P");
       itemList.textContent = data;
       itemList.classList.add(classId);
-      itemList.classId = classId;
       break;
 
     case "product-list-line":
@@ -127,7 +126,6 @@ function formatListItemDetail(data, classId) {
       var linkText = document.createTextNode(data);
       itemList.textContent = data;
       itemList.classList.add(classId);
-      itemList.classId = classId;
       break;
 
     case "product-detail-image":
@@ -137,7 +135,6 @@ function formatListItemDetail(data, classId) {
       itemList.alt = "Potion detail data";
       itemList.textContent = data;
       itemList.classList.add(classId);
-      itemList.classId = classId;
       break;
 
     case "product-detail-button":
@@ -146,7 +143,6 @@ function formatListItemDetail(data, classId) {
       itemList.classList.add("product-detail-button");
       itemList.textContent = data;
       itemList.classList.add(classId);
-      itemList.classId = classId;
       break;
 
     case "product-detail-close":
@@ -158,7 +154,6 @@ function formatListItemDetail(data, classId) {
       itemList.classList.add("product-detail-close");
       itemList.textContent = data;
       itemList.classList.add(classId);
-      itemList.classId = classId;
       break;
 
   }
